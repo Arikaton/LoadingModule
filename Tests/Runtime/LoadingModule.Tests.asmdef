@@ -2,19 +2,19 @@
     "name": "LoadingModule.Tests",
     "rootNamespace": "",
     "references": [
-        "GUID:27619889b8ba8c24980f49ee34dbb44a",
-        "GUID:0acc523941302664db1f4e527237feb3",
-        "GUID:cdf953e3b9d74782bc0097090512615b",
-        "GUID:84d5bc471678265439e62ae6e19a35e8",
-        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "LoadingModule",
+        "LoadingModule.Editor",
+        "UniTask"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "Moq.dll",
-        "nunit.framework.dll"
+        "nunit.framework.dll",
+        "Moq.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

@@ -67,7 +67,7 @@ namespace LoadingModule.Editor
                 };
             };
             factoryListView.itemsSource = factories.Keys.ToList();
-            factoryListView.Refresh();
+            factoryListView.Rebuild();
         }
         private void InitVisualTreeAndApplyStyleSheet()
         {
