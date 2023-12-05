@@ -1,14 +1,19 @@
 {
-  "name": "com.arikaton.loadingmodule",
-  "version": "1.0.0",
-  "displayName": "Loading Module",
-  "description": "",
-  "dependencies": {
-    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+  "name": "com.arikaton.async-loader",
+  "displayName": "Async Loader",
+  "version": "1.0.0-beta.1",
+  "description": "Lightweight tool for async loading games",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:Arikaton/AsyncLoader.git"
   },
   "author": {
-    "name": "Arikaton",
+    "name": "arikaton",
     "email": "arikaton58246@gmail.com",
     "url": "https://github.com/Arikaton"
-  }
+  },
+  "dependencies": {},
+  "keywords": [
+    "async"
+  ]
 }
